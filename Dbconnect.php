@@ -1,12 +1,3 @@
-<!-- NAME : RIYAD AHSAN AUNTOR
-    ID: 18101358
-    SECTION: 8
-    GROUP : 6
-    PROJECT : IMDB DATABASE
-    ASSIGNED FEATURE : 2
-    E-MAIL : riyad.ahsan.auntor@g.bracu.ac.bd
--->
-
 <?php
     $servername = "localhost";
     $username = "root";
