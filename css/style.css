@@ -1,0 +1,120 @@
+body{
+    background-image: url(Images/background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    background: rgba(128, 128, 128, 0.3);
+    margin-top: 15%;
+    margin: 5% 5%;
+}
+.Headline{
+    display: inline-block;
+    position: relative;
+    bottom: 15%;
+}
+.container-fluid{
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.container{
+    display: block;
+    position: relative;
+    top: 5%;
+    margin-top: 3%;
+}
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+        padding: 0 10px;
+        width: 450px;
+        caret-color:red;
+        transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color:  #86b300;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:  #e74c3c;
+    text-decoration:none;
+    }
+.Others{
+    position: relative;
+    top : 50px;
+    text-align: center;
+}
+.top{
+   display: inline-block;
+    position: relative;
+    right: 20%;
+   
+}
+.trending{
+    display: inline-block;
+    position: relative;
+    right: 10%;
+}
+a:link{
+    text-decoration: none;
+}
+.btn{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    color: red;
+}
+.btn-group{
+    position: relative;
+    left: 15%;
+    bottom: 5%;
+}
+.New-released{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 90%;
+}
+h4{
+    color: whitesmoke;
+}
+h4:hover{
+    color: red;
+}
+.card-header{
+    font-size: 1.5rem;
+}
+.card{
+    color: greenyellow;
+}
