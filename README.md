@@ -1,2 +1,2 @@
 # movie-database
-I've added a video, demonstrating the website.
+Watch the Demonstration video to see the end result.
