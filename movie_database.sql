@@ -72,7 +72,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`NAME`, `SSN`, `PASSWORD`, `EMAIL`, `DATE_OF_BIRTH`) VALUES
-('Riyad Ahsan', '18101358', '0123456789', 'riyad.ahsan4516@gmail.com', '1995-12-31');
+('Riyad Ahsan', '18101358', '0123456789', 'xyz@gmail.com', '1995-12-31');
 
 -- --------------------------------------------------------
 
@@ -335,7 +335,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`NAME`, `SSN`, `GENDER`, `PASSWORD`, `EMAIL`, `DATE_OF_BIRTH`, `USER_PREVILAGE`) VALUES
-('Riyad Ahsan', '18101358', 'Male', '0123456789', 'riyad.ahsan4516@gmail.com', '1995-12-31', 'full');
+('Riyad Ahsan', '18101358', 'Male', '0123456789', 'xyz@gmail.com', '1995-12-31', 'full');
 
 --
 -- Indexes for dumped tables
